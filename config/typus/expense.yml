@@ -7,3 +7,4 @@ Expense:
   search: name
   relationships: tags, category
   application: Application
+  filters: created_at, category, tags

@@ -1,0 +1,3 @@
+<%= build_table Expense, Expense.typus_fields_for(:index), items %>
+
+<p>Total: <%= items.inject(0) {|m, i| m + i.price } %></p>

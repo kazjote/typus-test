@@ -2,9 +2,11 @@
 
 Tag:
   fields:
-    default: name
+    default: name, expenses
     form: name
   filters: created_at
   search: name
   relationships: expenses
   application: Application
+  options:
+    default_action_on_item: show

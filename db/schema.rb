@@ -11,11 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111102190143) do
+ActiveRecord::Schema.define(:version => 20111102194421) do
 
   create_table "categories", :force => true do |t|
     t.integer  "position",   :null => false
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "expense_tags", :force => true do |t|
+    t.integer  "expense_id"
+    t.integer  "tag_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
