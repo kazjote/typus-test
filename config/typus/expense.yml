@@ -1,0 +1,9 @@
+# Use the README file as a reference to customize settings.
+
+Expense:
+  fields:
+    default: name, price, category, tags
+    form: name, price, category, tags
+  search: name
+  relationships: tags, category
+  application: Application

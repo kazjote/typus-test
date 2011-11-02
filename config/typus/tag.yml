@@ -1,0 +1,10 @@
+# Use the README file as a reference to customize settings.
+
+Tag:
+  fields:
+    default: name
+    form: name
+  filters: created_at
+  search: name
+  relationships: expenses
+  application: Application

@@ -1,0 +1,12 @@
+# Use the README file as a reference to customize settings.
+
+Category:
+  fields:
+    default: position, name
+    form: name
+  relationships: expenses
+  application: Application
+  actions:
+    show: show
+  options:
+    default_action_on_item: show
